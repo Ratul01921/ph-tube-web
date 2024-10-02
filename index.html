@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH-Tube Web</title>
+
+    <!-- Tailwind and Daisy UI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind custom color -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary: 'rgb(255, 31, 61)',
+                secondary: 'rgba(37, 37, 37, 0.2)',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <header>
+        <nav class="w-11/12 mx-auto flex justify-between py-4 items-center border-b">
+            <div >
+                <img class="w-full" src="./design/Logo.png" alt="">
+            </div>
+            <div>
+                <button class="btn px-5  text-center bg-secondary  text-xl font-medium ">Sort by view</button>
+            </div>
+            <div>
+                <button class="btn bg-primary px-5  rounded-lg text-white text-xl font-medium">Blog</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+
+
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
